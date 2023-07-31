@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>landing page</title>
+    <link rel="stylesheet" href="edtech.css" />
+  </head>
+  <body>
+    <header >
+      <div class="div1">
+            <img id="img"
+            src="image/Graduation-cap-illustration-on-transparent-background-PNG.png"
+            alt=""/>
+          <h1 class="heading">Educatium</h1>
+        </div>
+          <ul class="ul1">
+            <button class="btn1">Sign Up</button>
+            <a id="a3" href="#">Contact Us</a>
+            <a href="#">Courses</a>
+            <a href="#">About</a>
+            
+            
+          </ul>      
+    </header>
+    <main class="main">
+        <p><pre>
+          Welcome to Educatium. Our goal is to provide the best online teaching
+          to the students. We offer a wide variety of courses for our students.
+          We have the best faculties to help our students with any doubts. Join
+          us and take a step towards achieving your goal.</pre>
+        </p>
+        <div class="div3">
+            <button class="btn2">Get Started</button>
+        </div>
+        <h2>The Best Learning Platform</h2>
+        <div class="div4">
+            <ul>
+                <li>Learn AnyTime and AnyWhere</li>
+                <li>Wide Range of Online Courses</li>
+                <li>Minimal Fee-Struxture</li>
+                <li>Experienced Faculty</li>
+                <li>Online Lectures and Notes</li>
+            </ul>
+            <img id="img1" src="image/kaboompics_woman-works-on-laptop-17002.jpg" alt="">
+        </div>
+    </main>
+    <br>
+  </body>
+</html>
