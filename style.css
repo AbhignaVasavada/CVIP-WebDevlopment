@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+    box-sizing: content-box;
+    padding-top: 5px;
+}
+
+html {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+body {
+    min-height: 100%;
+    backdrop-filter: brightness(60%);
+}
+
+header {
+    background-color:  rgb(26, 110, 183);
+}
+.div1{
+    display: flex;
+    
+}
+
+.heading{
+    
+    padding-top: 20px;
+    
+    text-decoration: underline black 2px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+#img {
+    width: 150px;
+    padding: 0%;
+    filter: brightness(120%);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ul1 {
+    margin-right: 5%;
+    word-spacing: 50px;
+}
+
+ul a{
+    color: black;
+}
+
+#a3{
+    word-spacing: normal;
+}
+
+pre {
+    text-align: center;
+    font-weight: 200;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.div3 {
+    padding-top: 30px;
+    padding-left: 48%;
+    word-spacing: 2px;
+}
+
+.btn2 {
+    background-color: rgb(208, 120, 12);
+}
+
+h2 {
+    padding-left: 7%;
+    padding-top: 2%;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 8%;
+    padding-top: 2%;
+    font-size: 25px;
+}
+
+main {
+    height: 100%;
+    background: url(image/pngkey.com-cool-background-png-1973899.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(60%);
+    padding-bottom: 10%;
+}
+
+.div4 {
+    display: flex;
+}
+
+.div5 {
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    background-color: black;
+}
+
+#img1 {
+    padding-left: 30%;
+    width: 20%;
+    filter: brightness(100%);
+}
+
+.btn1 {
+    background-color: burlywood;
+    border: solid black 2px;
+    border-radius: 2px;
+    size: 5px;
+}
+
+@media screen and (max-width: 900px){
+    .ul1{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    ul a{
+        margin: 2%;
+    }
+
+    header {
+        
+        display: block;
+    }
+
+    .div4{
+        display: block;
+    }
+}
